@@ -57,55 +57,6 @@
       "text": "Every text is timestamped in the sheet. Perfect proof for detention claims, payroll disputes, and compliance audits."
     }
   ],
-  "Gallery": [
-    {
-      "title": "Driver SMS Interface",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Real-Time Dashboard",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Google Sheets Integration",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Status Updates Live",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Red Alert System",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Timestamped Message Log",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    }
-  ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"We're spending $42,000 a year on a dispatcher who spends half their day copying and pasting the same addresses into text messages.\"",
-      "name": "Fleet Owner, Texas"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"I've missed loads because my phone was ringing non-stop with 'Where am I going?' calls. The good freight goes to someone else.\"",
-      "name": "Operations Manager, Ohio"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Driver claims he told us about the flat tire. We have no record. Now it's a workers' comp claim and everyone's pointing fingers.\"",
-      "name": "Logistics Director, California"
-    }
-  ],
   "Pricing": {
     "headline": "Cheaper Than a Single Missed Load",
     "setup": {
@@ -129,24 +80,6 @@
     },
     "comparison": "Junior Dispatch Assistant: $3,500/mo | FullScope Automation: $799/mo"
   },
-  "FAQ": [
-    {
-      "question": "Do my drivers need a smartphone?",
-      "answer": "No. If they can send a text message, they can use this. Works on flip phones, smartphones, anything with SMS."
-    },
-    {
-      "question": "Do I have to change my spreadsheet layout?",
-      "answer": "No. We map our code to your specific column headers. We just add two 'status' columns to the far right of your existing sheet."
-    },
-    {
-      "question": "Is my data safe?",
-      "answer": "Yes. Your data lives in your own Google Drive. We just connect the pipes. You maintain full ownership and control."
-    },
-    {
-      "question": "What if I use Excel instead of Google Sheets?",
-      "answer": "We set up a 'Live Board' on Google Sheets for active dispatching, which you can copy-paste back to Excel for final accounting and records."
-    }
-  ],
   "Contact": {
     "address": "Remote Operations - Serving Fleets Nationwide",
     "phone": "+1 (647) 832-2069",
