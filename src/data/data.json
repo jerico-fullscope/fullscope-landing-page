@@ -1,0 +1,156 @@
+{
+  "Header": {
+    "title": "Stop Paying Dispatchers to Do Data Entry",
+    "paragraph": "Automate 80% of your driver communication. Drivers text simple commands; your Google Sheet updates instantly. No apps to download. No logins to forget."
+  },
+  "Features": [
+    {
+      "icon": "fa fa-mobile",
+      "title": "Dispatchers Drowning in Texts",
+      "text": "Hundreds of 'Where is my pickup?' messages flooding your phone every single morning."
+    },
+    {
+      "icon": "fa fa-clock-o",
+      "title": "Arguments Over Arrival Times",
+      "text": "Constant disputes with drivers about detention pay and who said what, when."
+    },
+    {
+      "icon": "fa fa-exclamation-triangle",
+      "title": "Safety Incidents Lost in Noise",
+      "text": "Critical alerts buried under a flood of routine status update messages."
+    },
+    {
+      "icon": "fa fa-frown-o",
+      "title": "3 Hours a Day Wasted",
+      "text": "Your dispatchers are acting as human auto-responders instead of finding high-paying freight."
+    }
+  ],
+  "About": {
+    "paragraph": "Our custom automation tool connects truck drivers via SMS to your dispatcher's dashboard in Google Sheets. No apps. No training. Just text commands that work from any phone.",
+    "Why": [
+      "Driver texts 'Pickup' or 'Status'",
+      "Bot reads your Google Sheet",
+      "Instant reply with address & instructions",
+      "Works on flip phones & smartphones"
+    ],
+    "Why2": [
+      "Driver texts 'Arrived' or 'Loaded'",
+      "Your spreadsheet turns Green instantly",
+      "Real-time fleet status without touching phone",
+      "Every text timestamped for detention claims"
+    ]
+  },
+  "Services": [
+    {
+      "icon": "fa fa-volume-off",
+      "name": "The 'Silent Office' Protocol",
+      "text": "Filters out routine noise so you only hear about real problems. Dispatchers focus on high-value tasks, not repetitive questions."
+    },
+    {
+      "icon": "fa fa-bell",
+      "name": "The 'Red Cell' Safety Alert",
+      "text": "If a driver texts 'Accident' or 'Flat Tire,' the dashboard turns RED and alerts management immediately. Never miss a critical incident."
+    },
+    {
+      "icon": "fa fa-history",
+      "name": "The 'Forever' Log",
+      "text": "Every text is timestamped in the sheet. Perfect proof for detention claims, payroll disputes, and compliance audits."
+    }
+  ],
+  "Gallery": [
+    {
+      "title": "Driver SMS Interface",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Real-Time Dashboard",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Google Sheets Integration",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Status Updates Live",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Red Alert System",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Timestamped Message Log",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"We're spending $42,000 a year on a dispatcher who spends half their day copying and pasting the same addresses into text messages.\"",
+      "name": "Fleet Owner, Texas"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"I've missed loads because my phone was ringing non-stop with 'Where am I going?' calls. The good freight goes to someone else.\"",
+      "name": "Operations Manager, Ohio"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Driver claims he told us about the flat tire. We have no record. Now it's a workers' comp claim and everyone's pointing fingers.\"",
+      "name": "Logistics Director, California"
+    }
+  ],
+  "Pricing": {
+    "headline": "Cheaper Than a Single Missed Load",
+    "setup": {
+      "price": "$2,500",
+      "discount": "$1,000 Early Adopter Discount Available",
+      "includes": [
+        "Custom coding for your workflow",
+        "Dashboard setup & configuration",
+        "Data migration to the cloud",
+        "1-on-1 training session"
+      ]
+    },
+    "monthly": {
+      "price": "$799",
+      "includes": [
+        "24/7 Server Uptime",
+        "Up to 3,000 SMS segments",
+        "Daily automated backups",
+        "Priority support response"
+      ]
+    },
+    "comparison": "Junior Dispatch Assistant: $3,500/mo | FullScope Automation: $799/mo"
+  },
+  "FAQ": [
+    {
+      "question": "Do my drivers need a smartphone?",
+      "answer": "No. If they can send a text message, they can use this. Works on flip phones, smartphones, anything with SMS."
+    },
+    {
+      "question": "Do I have to change my spreadsheet layout?",
+      "answer": "No. We map our code to your specific column headers. We just add two 'status' columns to the far right of your existing sheet."
+    },
+    {
+      "question": "Is my data safe?",
+      "answer": "Yes. Your data lives in your own Google Drive. We just connect the pipes. You maintain full ownership and control."
+    },
+    {
+      "question": "What if I use Excel instead of Google Sheets?",
+      "answer": "We set up a 'Live Board' on Google Sheets for active dispatching, which you can copy-paste back to Excel for final accounting and records."
+    }
+  ],
+  "Contact": {
+    "address": "Remote Operations - Serving Fleets Nationwide",
+    "phone": "+1 (647) 832-2069",
+    "email": "jerico@fullscopeservices.ca",
+    "linkedin": "https://www.linkedin.com/in/jerico-esguerra-275b393a7/"
+  }
+}
