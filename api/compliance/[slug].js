@@ -2,8 +2,8 @@ const { google } = require('googleapis');
 const path = require('path');
 
 // Google Sheets configuration
-const SPREADSHEET_ID = process.env.SPREADSHEET_ID || '16sEiK5j4tVILRLDp39ju_MHediOZjJZvOh7RdKIvx6w';
-const SHEET_NAME = process.env.SHEET_NAME || 'Client Data';
+const SPREADSHEET_ID = process.env.SPREADSHEET_ID;
+const SHEET_NAME = process.env.SHEET_NAME;
 
 // In-memory cache (will persist during function warm state)
 let cache = {
