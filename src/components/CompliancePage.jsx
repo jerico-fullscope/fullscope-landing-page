@@ -14,9 +14,10 @@ const CompliancePage = () => {
         setLoading(true);
         setError(null);
 
-        const apiUrl = process.env.NODE_ENV === 'production'
-          ? `/api/compliance/${slug}`
-          : `http://localhost:5000/api/compliance/${slug}`;
+        const apiUrl =
+          process.env.NODE_ENV === 'production'
+            ? `/api/compliance/${slug}`
+            : `http://localhost:5000/api/compliance/${slug}`;
 
         const response = await fetch(apiUrl);
 
@@ -83,7 +84,6 @@ const CompliancePage = () => {
         <p className="subtitle">
           This page details the SMS terms and privacy policies for{' '}
           <strong>{data.Company_Name || 'N/A'}</strong>
-          {data.Industry && <span className="industry-badge">{data.Industry}</span>}
         </p>
 
         <div className="info-grid">
@@ -103,14 +103,15 @@ const CompliancePage = () => {
 
         <h3>Program Description & Opt-In Method</h3>
         <p className="program-description">
-          {data.Opt_In_Method || 'Users who provide their phone number will receive text messages regarding operational updates and service notifications.'}
+          {data.Opt_In_Method ||
+            'Users who provide their phone number will receive text messages regarding operational updates and service notifications.'}
         </p>
 
         <h3>Terms of Service</h3>
         <p>
-          By providing your phone number, you agree to receive text messages from{' '}
-          {data.Company_Name || 'us'}. Message and data rates may apply. Message
-          frequency varies. Text <strong>HELP</strong> for help or{' '}
+          By providing your phone number, you agree to receive text messages
+          from {data.Company_Name || 'us'}. Message and data rates may apply.
+          Message frequency varies. Text <strong>HELP</strong> for help or{' '}
           <strong>STOP</strong> to cancel.
         </p>
 
@@ -118,8 +119,8 @@ const CompliancePage = () => {
         <div className="legal-text">
           No mobile information will be shared with third parties/affiliates for
           marketing/promotional purposes. All the above categories exclude text
-          messaging originator opt-in data and consent; this information will not
-          be shared with any third parties.
+          messaging originator opt-in data and consent; this information will
+          not be shared with any third parties.
         </div>
 
         {data.Consent_Record_Location && (
@@ -129,13 +130,16 @@ const CompliancePage = () => {
               <strong>Storage Location:</strong> {data.Consent_Record_Location}
             </p>
             <p className="consent-note">
-              We maintain detailed records of all user consent to ensure compliance
-              with telecommunications regulations and industry best practices.
+              We maintain detailed records of all user consent to ensure
+              compliance with telecommunications regulations and industry best
+              practices.
             </p>
           </div>
         )}
       </div>
-      <footer>Technical Infrastructure provided by FullScope Services Inc.</footer>
+      <footer>
+        Technical Infrastructure provided by FullScope Services Inc.
+      </footer>
     </div>
   );
 };
