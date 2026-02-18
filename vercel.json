@@ -1,0 +1,19 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "env": {
+    "SPREADSHEET_ID": "@spreadsheet_id",
+    "SHEET_NAME": "@sheet_name",
+    "GOOGLE_CREDENTIALS": "@google_credentials"
+  }
+}
