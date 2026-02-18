@@ -10,10 +10,5 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ],
-  "env": {
-    "SPREADSHEET_ID": "@spreadsheet_id",
-    "SHEET_NAME": "@sheet_name",
-    "CREDENTIALS": "@credentials"
-  }
+  ]
 }
