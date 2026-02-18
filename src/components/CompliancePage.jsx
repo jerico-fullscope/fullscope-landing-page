@@ -79,10 +79,11 @@ const CompliancePage = () => {
   return (
     <div className="compliance-container">
       <div className="card">
-        <h1>Messaging Compliance</h1>
-        <p>
+        <h1>SMS Messaging Compliance</h1>
+        <p className="subtitle">
           This page details the SMS terms and privacy policies for{' '}
-          <strong>{data.Company_Name || 'N/A'}</strong>.
+          <strong>{data.Company_Name || 'N/A'}</strong>
+          {data.Industry && <span className="industry-badge">{data.Industry}</span>}
         </p>
 
         <div className="info-grid">
@@ -100,12 +101,9 @@ const CompliancePage = () => {
           </div>
         </div>
 
-        <h3>Program Description</h3>
-        <p>
-          Users who provide their phone number via{' '}
-          <strong>{data.Opt_In_Method || 'our platform'}</strong> will receive
-          text messages regarding operational updates, dispatch coordination, and
-          service notifications.
+        <h3>Program Description & Opt-In Method</h3>
+        <p className="program-description">
+          {data.Opt_In_Method || 'Users who provide their phone number will receive text messages regarding operational updates and service notifications.'}
         </p>
 
         <h3>Terms of Service</h3>
@@ -123,6 +121,19 @@ const CompliancePage = () => {
           messaging originator opt-in data and consent; this information will not
           be shared with any third parties.
         </div>
+
+        {data.Consent_Record_Location && (
+          <div className="consent-info">
+            <h3>Consent Records</h3>
+            <p>
+              <strong>Storage Location:</strong> {data.Consent_Record_Location}
+            </p>
+            <p className="consent-note">
+              We maintain detailed records of all user consent to ensure compliance
+              with telecommunications regulations and industry best practices.
+            </p>
+          </div>
+        )}
       </div>
       <footer>Technical Infrastructure provided by FullScope Services Inc.</footer>
     </div>

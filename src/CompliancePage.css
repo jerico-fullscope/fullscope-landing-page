@@ -23,11 +23,34 @@
   margin-top: 0;
   border-bottom: 2px solid #e2e8f0;
   padding-bottom: 10px;
+  font-size: 2rem;
+}
+
+.compliance-container .subtitle {
+  font-size: 1.05rem;
+  color: #4a5568;
+  margin-top: 10px;
+  line-height: 1.7;
+}
+
+.compliance-container .industry-badge {
+  display: inline-block;
+  background: #667eea;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-left: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .compliance-container h3 {
   color: #2d3748;
   margin-top: 30px;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 .compliance-container .info-grid {
@@ -49,12 +72,50 @@
   margin-bottom: 5px;
 }
 
+.compliance-container .program-description {
+  background: #f7fafc;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #4299e1;
+  color: #2d3748;
+  line-height: 1.8;
+  font-size: 0.95rem;
+}
+
 .compliance-container .legal-text {
   font-size: 0.95rem;
   color: #4a5568;
   background: #fffaf0;
-  padding: 15px;
+  padding: 20px;
+  border-radius: 8px;
   border-left: 4px solid #ed8936;
+  line-height: 1.8;
+}
+
+.compliance-container .consent-info {
+  background: #f0fff4;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #48bb78;
+  margin-top: 30px;
+}
+
+.compliance-container .consent-info h3 {
+  margin-top: 0;
+  color: #2f855a;
+  font-size: 1.2rem;
+}
+
+.compliance-container .consent-info p {
+  margin: 10px 0;
+  color: #2d3748;
+}
+
+.compliance-container .consent-note {
+  font-size: 0.9rem;
+  color: #4a5568;
+  font-style: italic;
+  margin-top: 15px;
 }
 
 .compliance-container footer {
