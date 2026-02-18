@@ -13,7 +13,7 @@ let cache = {
 };
 
 async function getGoogleSheetsClient() {
-  const credentials = JSON.parse(process.env.GOOGLE_CREDENTIALS || '{}');
+  const credentials = JSON.parse(process.env.CREDENTIALS || '{}');
 
   const auth = new google.auth.GoogleAuth({
     credentials,

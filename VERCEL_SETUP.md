@@ -18,7 +18,7 @@ Go to your Vercel project settings → Environment Variables and add:
 Client Data
 ```
 
-### GOOGLE_CREDENTIALS
+### CREDENTIALS
 Copy the entire contents of your `credentials.json` file and paste it as a **single line** JSON string.
 
 **To convert to single line:**
