@@ -17,6 +17,9 @@ node_modules/
 .env.test.local
 .env.production.local
 
+# Credentials (Google Service Account)
+credentials.json
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
