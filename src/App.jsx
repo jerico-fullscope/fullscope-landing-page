@@ -8,6 +8,8 @@ import { Services } from "./components/services";
 import { Pricing } from "./components/pricing";
 import { Contact } from "./components/contact";
 import CompliancePage from "./components/CompliancePage";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsAndConditions from "./components/TermsAndConditions";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -42,6 +44,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/compliance/:slug" element={<CompliancePage />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
       </Routes>
     </Router>
   );
