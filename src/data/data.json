@@ -77,7 +77,7 @@
         "price": "$499",
         "capacity": "Up to 15 trucks",
         "bestFor": "Growing fleets that want more time",
-        "segments": "3,000 SMS segments/month (~2,000 texts)",
+        "segments": "3,000 SMS segments/month (~3,000 texts)",
         "features": [
           {
             "name": "Unlimited \"Where do I go?\" texts",
@@ -103,7 +103,7 @@
         "price": "$799",
         "capacity": "Up to 40 trucks",
         "bestFor": "Ops Managers who want to sleep at night",
-        "segments": "5,000 SMS segments/month (~3,500 texts)",
+        "segments": "5,000 SMS segments/month (~5,000 texts)",
         "features": [
           {
             "name": "Everything in Standard",
@@ -129,7 +129,7 @@
         "price": "$999+",
         "capacity": "40+ trucks",
         "bestFor": "Big fleets with complex needs",
-        "segments": "7,500 SMS segments/month (~5,000 texts)",
+        "segments": "7,500 SMS segments/month (~7,500 texts)",
         "features": [
           {
             "name": "Everything in Priority",
