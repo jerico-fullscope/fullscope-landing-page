@@ -46,7 +46,6 @@ export const ROICalculator = () => {
 
   // FullScope annual cost: Monthly tier × 12 (maintenance only, no setup fee)
   const fullscopeAnnualCost = monthlyPrice * 12;
-  const fullscopeMonthlyCost = monthlyPrice;
   const annualSavings = costPerYear - fullscopeAnnualCost;
   const monthlySavings = annualSavings / 12;
   const costPerTruckPerMonth = monthlyPrice / trucks;
