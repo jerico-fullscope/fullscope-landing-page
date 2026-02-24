@@ -165,7 +165,7 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>&copy; 2025 FullScope Services. All rights reserved.</p>
+          <p>&copy; 2026 FullScope Services. All rights reserved.</p>
         </div>
       </div>
     </div>

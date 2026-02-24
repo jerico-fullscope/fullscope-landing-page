@@ -3,7 +3,17 @@ import React from 'react';
 export const Header = (props) => {
   return (
     <header id="header">
-      <div className="intro">
+      <div
+        className="intro"
+        style={{
+          backgroundImage: 'url(/img/intro-bg.png)',
+          backgroundPosition: 'center center',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          borderLeftWidth: '0px',
+          marginBottom: '0px',
+        }}
+      >
         <div className="overlay">
           <div className="container">
             <div className="row">

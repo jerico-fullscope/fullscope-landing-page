@@ -5,6 +5,7 @@ import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
 import { Services } from "./components/services";
+import { ROICalculator } from "./components/roiCalculator";
 import { Pricing } from "./components/pricing";
 import { Contact } from "./components/contact";
 import CompliancePage from "./components/CompliancePage";
@@ -32,6 +33,7 @@ const LandingPage = () => {
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
+      <ROICalculator />
       <Pricing data={landingPageData.Pricing} />
       <Contact data={landingPageData.Contact} />
     </div>

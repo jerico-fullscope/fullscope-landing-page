@@ -1,84 +1,156 @@
 {
   "Header": {
-    "title": "Stop Paying Dispatchers to Do Data Entry",
-    "paragraph": "Automate 80% of your driver communication. Drivers text simple commands; your Google Sheet updates instantly. No apps to download. No logins to forget."
+    "title": "Stop Answering 'Where's My Load?' 50 Times a Day",
+    "paragraph": "AI-powered SMS automation connects drivers to your dispatch board via text. They ask, the system answers—instantly. Save 3+ hours daily. Eliminate phone interruptions. Get back $32,400/year vs hiring another dispatcher."
   },
   "Features": [
     {
-      "icon": "fa fa-mobile",
-      "title": "Dispatchers Drowning in Texts",
-      "text": "Hundreds of 'Where is my pickup?' messages flooding your phone every single morning."
+      "icon": "fa fa-phone",
+      "title": "Phone Never Stops Ringing",
+      "text": "50 drivers × 3 calls/day = 150 interruptions. Each time, dispatch stops negotiating rates to answer 'What time is my delivery?'"
     },
     {
       "icon": "fa fa-clock-o",
-      "title": "Arguments Over Arrival Times",
-      "text": "Constant disputes with drivers about detention pay and who said what, when."
+      "title": "3.75 Hours Lost Every Day",
+      "text": "50 drivers × 3 calls × 90 seconds = 225 minutes/day (3.75 hours). At $30/hour dispatcher rate: $112.50/day wasted = $3,375/month on human voicemail."
     },
     {
       "icon": "fa fa-exclamation-triangle",
-      "title": "Safety Incidents Lost in Noise",
-      "text": "Critical alerts buried under a flood of routine status update messages."
+      "title": "Detention Disputes You Can't Prove",
+      "text": "Driver says 'I texted I was there at 9am.' You have no record. $200 in detention pay gone because it's their word vs yours."
     },
     {
-      "icon": "fa fa-frown-o",
-      "title": "3 Hours a Day Wasted",
-      "text": "Your dispatchers are acting as human auto-responders instead of finding high-paying freight."
+      "icon": "fa fa-ban",
+      "title": "Focus Destroyed Every 8 Minutes",
+      "text": "Every interruption costs 23 minutes of productivity. Your best dispatcher is spending their day as a human voicemail."
     }
   ],
   "About": {
-    "paragraph": "Our custom automation tool connects truck drivers via SMS to your dispatcher's dashboard in Google Sheets. No apps. No training. Just text commands that work from any phone.",
+    "paragraph": "Stop paying dispatchers $60/hour to be human auto-responders. FullScope connects your drivers to your Google Sheets via SMS—no apps, no training, works on flip phones. Drivers text questions and get instant answers. They text status updates and your board updates automatically. Zero phone calls. Zero interruptions.",
     "Why": [
-      "Driver texts 'Pickup' or 'Status'",
-      "Bot reads your Google Sheet",
-      "Instant reply with address & instructions",
-      "Works on flip phones & smartphones"
+      "Driver texts: 'Where's my pickup?'",
+      "Bot reads Google Sheet in 2 seconds",
+      "Replies: 'ABC Warehouse, 123 Main St, Dallas. Be there by 2pm.'",
+      "Driver never has to call. Dispatch never interrupted."
     ],
     "Why2": [
-      "Driver texts 'Arrived' or 'Loaded'",
-      "Your spreadsheet turns Green instantly",
-      "Real-time fleet status without touching phone",
-      "Every text timestamped for detention claims"
+      "Driver texts: 'I'm loaded'",
+      "Google Sheet updates Status → 'Loaded'",
+      "Timestamp logged automatically for detention proof",
+      "Dispatcher sees real-time update without lifting a finger"
     ]
   },
   "Services": [
     {
       "icon": "fa fa-volume-off",
-      "name": "The 'Silent Office' Protocol",
-      "text": "Filters out routine noise so you only hear about real problems. Dispatchers focus on high-value tasks, not repetitive questions."
+      "name": "Zero Interruptions Mode",
+      "text": "90% of driver calls are asking info that's already in your load board. The bot answers instantly—dispatch never picks up the phone for routine questions."
     },
     {
       "icon": "fa fa-bell",
-      "name": "The 'Red Cell' Safety Alert",
-      "text": "If a driver texts 'Accident' or 'Flat Tire,' the dashboard turns RED and alerts management immediately. Never miss a critical incident."
+      "name": "Emergency Auto-Escalation",
+      "text": "Driver texts 'accident' or 'breakdown'? System detects emergency keywords and instantly alerts your dispatch team with location and load details."
     },
     {
       "icon": "fa fa-history",
-      "name": "The 'Forever' Log",
-      "text": "Every text is timestamped in the sheet. Perfect proof for detention claims, payroll disputes, and compliance audits."
+      "name": "Timestamped Detention Proof",
+      "text": "Every 'I arrived' and 'I'm loaded' text gets timestamped in your sheet. No more he-said-she-said. Perfect evidence for detention claims and payroll disputes."
     }
   ],
   "Pricing": {
-    "headline": "Cheaper Than a Single Missed Load",
+    "headline": "Simple Pricing - Choose Your Fleet Size",
+    "subheadline": "Only $1.30 per truck per day. Less than a cup of coffee.",
     "setup": {
       "price": "$2,500",
       "discount": "$1,000 Early Adopter Discount Available",
       "includes": [
-        "Custom coding for your workflow",
-        "Dashboard setup & configuration",
-        "Data migration to the cloud",
-        "1-on-1 training session"
+        "Custom Google Sheet Dashboard configuration",
+        "Twilio Number procurement & server deployment",
+        "Historical data import (Drivers & Active Loads)",
+        "1-Hour Training Session for Dispatch team"
       ]
     },
-    "monthly": {
-      "price": "$799",
-      "includes": [
-        "24/7 Server Uptime",
-        "Up to 3,000 SMS segments",
-        "Daily automated backups",
-        "Priority support response"
-      ]
+    "tiers": [
+      {
+        "name": "Standard",
+        "subtitle": "Growth",
+        "price": "$499",
+        "capacity": "Up to 15 trucks",
+        "bestFor": "Growing fleets that want more time",
+        "segments": "3,000 SMS segments/month (~2,000 texts)",
+        "features": [
+          {
+            "name": "Unlimited \"Where do I go?\" texts",
+            "included": true
+          },
+          {
+            "name": "Google Sheet 2-Way Sync",
+            "included": true
+          },
+          {
+            "name": "Payroll & Detention lookups",
+            "included": true
+          },
+          {
+            "name": "Voice Failover (forwards calls to Ops Manager)",
+            "included": true
+          }
+        ]
+      },
+      {
+        "name": "Priority",
+        "subtitle": "Pro",
+        "price": "$799",
+        "capacity": "Up to 40 trucks",
+        "bestFor": "Ops Managers who want to sleep at night",
+        "segments": "5,000 SMS segments/month (~3,500 texts)",
+        "features": [
+          {
+            "name": "Everything in Standard",
+            "included": true
+          },
+          {
+            "name": "Safety Alerts (Accidents/Breakdowns)",
+            "included": true
+          },
+          {
+            "name": "Multi-Dispatcher Routing",
+            "included": true
+          },
+          {
+            "name": "Priority Support",
+            "included": true
+          }
+        ]
+      },
+      {
+        "name": "Elite",
+        "subtitle": "Enterprise",
+        "price": "$999+",
+        "capacity": "40+ trucks",
+        "bestFor": "Big fleets with complex needs",
+        "segments": "7,500 SMS segments/month (~5,000 texts)",
+        "features": [
+          {
+            "name": "Everything in Priority",
+            "included": true
+          },
+          {
+            "name": "Custom integrations & workflows",
+            "included": true
+          },
+          {
+            "name": "Dedicated account manager",
+            "included": true
+          }
+        ]
+      }
+    ],
+    "fairUse": {
+      "title": "Fair Use Policy",
+      "description": "SMS segments included based on tier selection above. Additional messages billed at $0.02/segment."
     },
-    "comparison": "Junior Dispatch Assistant: $3,500/mo | FullScope Services: $799/mo"
+    "comparison": "Hiring a junior dispatcher costs $3,500/month in salary, taxes, and benefits. FullScope AI Automation delivers 24/7 coverage for just $799/month—saving you $32,400 per year while your team focuses on what actually requires human judgment: negotiations, problem-solving, and growing your business."
   },
   "Contact": {
     "address": "Remote Operations - Serving Fleets Nationwide",
